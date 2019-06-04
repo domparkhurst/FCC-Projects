@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">A survey form for the FCC course</p>
+    </header>
+    <div>
+      <form action="" id="survey-form">
+        <!-- name row -->
+        <div class="my-inputs">
+          <label for="name" id="name-label">Name</label><br>
+          <input type="text" class="full-width" id="name" placeholder="Enter first name" required><br>
+        </div>
+        <!-- email row -->
+        <div class="my-inputs">
+          <label for="email" id="email-label">Email</label><br>
+          <input type="email" class="full-width" id="email" placeholder="Enter email" required><br>
+        </div>
+        <!-- age row -->
+        <div class="my-inputs">
+          <label for="number" id="number-label">Age</label><br>
+          <input type="number" class="full-width" id="number" placeholder="Enter age" required min="1" max="130"><br>
+        </div>
+        <!-- select row -->
+        <div class="my-inputs">
+          <fieldset>
+            <legend>Lorem ipsum dolor sit amet</legend>
+            <select name="option" id="dropdown">
+            <option value="">Item 1</option>
+            <option value="">Item 2</option>
+            <option value="">Item 3</option>
+          </select>
+          </fieldset>
+        </div>
+        <!-- radio button row -->
+        <div class="my-inputs">
+          <fieldset>
+            <legend for="radio">Lorem ipsum dolor sit amet</legend>
+            <input type="radio" name="radio" value="Item 1">Item 1<br>
+            <input type="radio" name="radio" value="Item 1">Item 2<br>
+            <input type="radio" name="radio" value="Item 1">Item 3<br>
+          </fieldset>  </div>
+        <!-- checkbox row -->
+        <div class="my-inputs">
+          <fieldset>
+            <legend>Loremipsum dolor sit amet</legend>          
+            <input type="checkbox" value="item 1">Item 1<br>
+            <input type="checkbox" value="item 2">Item 2<br>
+            <input type="checkbox" value="Item 3">Item 3<br>
+          </fieldset>
+        </div>
+        <br>
+        <!-- textbox row -->
+        <label for="textbox">Your feedback</label>
+        <textarea name="text" cols="30" rows="5"></textarea><br>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
