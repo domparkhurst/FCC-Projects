@@ -1,0 +1,89 @@
+html, body {
+  font-family: arial;
+  background-color: #333;
+  margin: .5em;
+}
+
+header {
+  background-color: teal;
+  padding: 1em;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+  color: #fafafa;
+}
+
+p {
+  padding-top: 1em;
+}
+
+label {
+  font-weight: bold;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  margin: 0em;
+  padding: .5em;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: .5em;
+  background-color: #fff;
+  margin-top: 1em;
+}
+
+select {
+  margin: .5em;
+}
+
+input[type="checkbox"] {
+  padding: 0;
+  margin: .5em;
+}
+
+input[type="radio"] {
+  padding: 0;
+  margin: .5em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  margin-top: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-top: 1em;
+}
+
+.container {
+  padding: 1em;
+  background-color: #fff;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.my-inputs {
+  margin-top: 1em;
+}
