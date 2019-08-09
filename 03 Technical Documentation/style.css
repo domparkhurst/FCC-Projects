@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#title {
+    font-weight: bold;
+    height: 140px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+#main-doc {
+    display: flex;
+    flex-direction: row;
+}
+
+main nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    background-color: #01a3a4;
+    color: #fff;
+    font-size: small;
+}
+
+nav header {
+    padding: 16px 18px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 18px;
+}
+
+a {
+    font-size: normal;
+}
+
+#navbar a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    flex-direction: column;
+    align-content: center;
+    margin-left: 240px;
+    width: 100vw!important;
+    padding: 32px;
+}
+
+h3 {
+    margin-bottom: .4em;
+    margin-top: .8em;
+}
+
+p, ul {
+    font-size: small;
+}
+
+code {
+    display: block;
+    background-color: #222f3e;
+    padding: 12px 14px;
+    color: #feca57;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    overflow-x:scroll;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: small;
+    font-family: monospace;
+}
+
+code:last-child {
+  margin-bottom: 0;
+}
